@@ -1,5 +1,5 @@
 //your JS code here. If required.
-var f1=function functionName(){
-	alert(f1.name);
+function ramya(){
+	alert(arguments.callee.name);
 }
-f1()
+ramya();
